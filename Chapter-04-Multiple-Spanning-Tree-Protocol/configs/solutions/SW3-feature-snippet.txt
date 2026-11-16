@@ -1,0 +1,8 @@
+! Apply only after matching your own interfaces and topology
+spanning-tree mode mst
+spanning-tree mst configuration
+ name CAMPUS
+ revision 1
+ instance 1 vlan 10,20
+ instance 2 vlan 30,40
+ exit

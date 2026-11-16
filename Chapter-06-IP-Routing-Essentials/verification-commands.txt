@@ -1,0 +1,5 @@
+show ip interface brief
+show ip route
+show ip protocols
+show ip cef
+traceroute 10.255.5.5

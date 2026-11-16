@@ -1,0 +1,5 @@
+show vlan brief
+show interfaces trunk
+show spanning-tree detail
+show etherchannel summary
+show mac address-table dynamic

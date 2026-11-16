@@ -1,0 +1,2 @@
+! DELIBERATELY BROKEN config fragment. Do not apply on production!
+spanning-tree vlan 10 priority 61440

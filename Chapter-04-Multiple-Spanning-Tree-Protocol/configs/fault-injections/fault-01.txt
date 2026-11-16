@@ -1,0 +1,5 @@
+! DELIBERATELY BROKEN config fragment. Do not apply on production!
+spanning-tree mst configuration
+ name CAMPUS
+ revision 2
+ exit

@@ -1,0 +1,2 @@
+hostname R5
+no ip domain-lookup

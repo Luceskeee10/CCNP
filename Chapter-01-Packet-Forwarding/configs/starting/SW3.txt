@@ -1,0 +1,2 @@
+hostname SW3
+no ip domain-lookup

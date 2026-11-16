@@ -1,0 +1,11 @@
+deployment-reports/
+__pycache__/
+*.pyc
+.env
+.vscode/
+**/secrets*
+*.qcow2
+*.vmdk
+*.bin
+*.image
+*.gns3project

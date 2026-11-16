@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 09 - Advanced OSPF",
+  "project_id": "80d216d2-dcea-56bd-a7a2-b524d5bfdb45",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

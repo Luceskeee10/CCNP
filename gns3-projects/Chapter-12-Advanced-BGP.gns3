@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 12 - Advanced BGP",
+  "project_id": "8f827f8c-c60d-59f0-9f7f-882065fe899d",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

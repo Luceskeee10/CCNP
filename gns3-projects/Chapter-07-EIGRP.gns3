@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 07 - EIGRP",
+  "project_id": "05936876-df8f-5352-a269-7651fbd540b3",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 08 - OSPF",
+  "project_id": "8d04d6f6-ddf2-5ce1-ae4f-4c1e17204aa1",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 29 - Introduction to Automation Tools",
+  "project_id": "dd8253fd-9cfd-54c8-bb30-1514080ec854",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

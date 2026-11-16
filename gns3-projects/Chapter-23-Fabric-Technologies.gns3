@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 23 - Fabric Technologies",
+  "project_id": "19b17901-8a76-508e-a654-802908d5d35a",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

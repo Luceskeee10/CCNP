@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 26 - Infrastructure Security",
+  "project_id": "2f467896-ad23-591a-88b5-07a7e18ff4a0",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

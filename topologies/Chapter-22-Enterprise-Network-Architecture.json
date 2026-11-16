@@ -1,0 +1,115 @@
+{
+  "chapter": 22,
+  "name": "Enterprise Network Architecture",
+  "profile": "campus",
+  "nodes": [
+    {
+      "name": "SW1",
+      "role": "switch",
+      "x": -400,
+      "y": -130,
+      "required_ports": 3
+    },
+    {
+      "name": "SW2",
+      "role": "switch",
+      "x": 0,
+      "y": -130,
+      "required_ports": 4
+    },
+    {
+      "name": "SW3",
+      "role": "switch",
+      "x": -400,
+      "y": 130,
+      "required_ports": 3
+    },
+    {
+      "name": "SW4",
+      "role": "switch",
+      "x": 0,
+      "y": 130,
+      "required_ports": 3
+    },
+    {
+      "name": "PC1",
+      "role": "pc",
+      "x": -610,
+      "y": 290,
+      "required_ports": 1
+    },
+    {
+      "name": "PC2",
+      "role": "pc",
+      "x": 180,
+      "y": 290,
+      "required_ports": 1
+    },
+    {
+      "name": "R1",
+      "role": "router",
+      "x": 400,
+      "y": -110,
+      "required_ports": 1
+    }
+  ],
+  "links": [
+    {
+      "a": "SW1",
+      "b": "SW2",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "SW1:port0 <-> SW2:port0"
+    },
+    {
+      "a": "SW1",
+      "b": "SW2",
+      "port_a": 1,
+      "port_b": 1,
+      "link_label": "SW1:port1 <-> SW2:port1"
+    },
+    {
+      "a": "SW1",
+      "b": "SW3",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "SW1:port2 <-> SW3:port0"
+    },
+    {
+      "a": "SW2",
+      "b": "SW4",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "SW2:port2 <-> SW4:port0"
+    },
+    {
+      "a": "SW3",
+      "b": "SW4",
+      "port_a": 1,
+      "port_b": 1,
+      "link_label": "SW3:port1 <-> SW4:port1"
+    },
+    {
+      "a": "SW3",
+      "b": "PC1",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "SW3:port2 <-> PC1:port0"
+    },
+    {
+      "a": "SW4",
+      "b": "PC2",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "SW4:port2 <-> PC2:port0"
+    },
+    {
+      "a": "SW2",
+      "b": "R1",
+      "port_a": 3,
+      "port_b": 0,
+      "link_label": "SW2:port3 <-> R1:port0"
+    }
+  ],
+  "description": "Compare STP access with routed access design"
+}

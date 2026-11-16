@@ -1,0 +1,73 @@
+{
+  "chapter": 23,
+  "name": "Fabric Technologies",
+  "profile": "fabric",
+  "nodes": [
+    {
+      "name": "UNDERLAY1",
+      "role": "router",
+      "x": -400,
+      "y": 0,
+      "required_ports": 2
+    },
+    {
+      "name": "UNDERLAY2",
+      "role": "router",
+      "x": 0,
+      "y": -100,
+      "required_ports": 2
+    },
+    {
+      "name": "UNDERLAY3",
+      "role": "router",
+      "x": 350,
+      "y": 0,
+      "required_ports": 2
+    },
+    {
+      "name": "CLIENT1",
+      "role": "pc",
+      "x": -500,
+      "y": 220,
+      "required_ports": 1
+    },
+    {
+      "name": "CLIENT2",
+      "role": "pc",
+      "x": 450,
+      "y": 220,
+      "required_ports": 1
+    }
+  ],
+  "links": [
+    {
+      "a": "UNDERLAY1",
+      "b": "UNDERLAY2",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "UNDERLAY1:port0 <-> UNDERLAY2:port0"
+    },
+    {
+      "a": "UNDERLAY2",
+      "b": "UNDERLAY3",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "UNDERLAY2:port1 <-> UNDERLAY3:port0"
+    },
+    {
+      "a": "UNDERLAY1",
+      "b": "CLIENT1",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "UNDERLAY1:port1 <-> CLIENT1:port0"
+    },
+    {
+      "a": "UNDERLAY3",
+      "b": "CLIENT2",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "UNDERLAY3:port1 <-> CLIENT2:port0"
+    }
+  ],
+  "description": "Design fabric control/data plane in worksheet and verify underlay routing"
+}

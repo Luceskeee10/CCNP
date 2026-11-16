@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 22 - Enterprise Network Architecture",
+  "project_id": "7dfd9c62-e5a0-56c0-9660-69151e89737a",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

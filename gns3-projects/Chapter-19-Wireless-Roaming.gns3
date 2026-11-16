@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 19 - Wireless Roaming",
+  "project_id": "66270396-fd39-569a-8b38-b25b0ecb7d60",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

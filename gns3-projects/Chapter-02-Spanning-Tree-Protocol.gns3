@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 02 - Spanning Tree Protocol",
+  "project_id": "ee0fe0eb-63bd-5664-ab4e-30f048478e55",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

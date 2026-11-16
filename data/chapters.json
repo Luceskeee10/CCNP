@@ -1,0 +1,263 @@
+[
+  {
+    "chapter": 1,
+    "title": "Packet Forwarding",
+    "part": "Forwarding",
+    "profile": "campus",
+    "focus": "ARP, MAC learning, CEF and L2/L3 forwarding",
+    "goal": "VLAN 10/20 reachability and FIB verification",
+    "fault_family": "Wrong default gateway; missing VLAN on trunk"
+  },
+  {
+    "chapter": 2,
+    "title": "Spanning Tree Protocol",
+    "part": "Layer 2",
+    "profile": "campus",
+    "focus": "PVST+, RSTP, root election and port roles",
+    "goal": "Set SW1 root for VLAN 10 and SW2 for VLAN 20",
+    "fault_family": "Unexpected root bridge; blocked access uplink"
+  },
+  {
+    "chapter": 3,
+    "title": "Advanced STP Tuning",
+    "part": "Layer 2",
+    "profile": "campus",
+    "focus": "Root Guard, Loop Guard, BPDU Guard, PortFast",
+    "goal": "Protect edge ports and downlinks without affecting legitimate redundancy",
+    "fault_family": "Root-inconsistent uplink; err-disabled access port"
+  },
+  {
+    "chapter": 4,
+    "title": "Multiple Spanning Tree Protocol",
+    "part": "Layer 2",
+    "profile": "campus",
+    "focus": "MST region, revision, VLAN-instance mapping",
+    "goal": "Create MSTI 1 VLANs 10,20 and MSTI 2 VLANs 30,40",
+    "fault_family": "Region digest mismatch; wrong regional root"
+  },
+  {
+    "chapter": 5,
+    "title": "VLAN Trunks and EtherChannel Bundles",
+    "part": "Layer 2",
+    "profile": "campus",
+    "focus": "802.1Q trunks, LACP, port channels, VTP/DTP interpretation",
+    "goal": "Build Po1 LACP across two links; permit VLANs 10/20/30",
+    "fault_family": "LACP suspended; allowed VLAN mismatch"
+  },
+  {
+    "chapter": 6,
+    "title": "IP Routing Essentials",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "Static, floating static, PBR, VRF Lite and AD",
+    "goal": "Implement primary and backup routes with tested failover",
+    "fault_family": "Next-hop recursive routing; incorrect tracking and AD"
+  },
+  {
+    "chapter": 7,
+    "title": "EIGRP",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "EIGRP adjacencies, DUAL, metrics and feasible successors",
+    "goal": "Enable EIGRP 100 and compare topology table to routing table",
+    "fault_family": "K-values mismatch; passive interface or AS mismatch"
+  },
+  {
+    "chapter": 8,
+    "title": "OSPF",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "OSPFv2 neighbors, DR/BDR, interface networks, costs",
+    "goal": "Establish area 0 OSPF and tune preferred next hop",
+    "fault_family": "MTU mismatch; hello/dead interval mismatch"
+  },
+  {
+    "chapter": 9,
+    "title": "Advanced OSPF",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "Multi-area routing, LSAs, ABRs, area summary",
+    "goal": "Use area 0 backbone and area 10/20 loopbacks with summaries",
+    "fault_family": "Area mismatch; missing inter-area routes"
+  },
+  {
+    "chapter": 10,
+    "title": "OSPFv3",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "IPv6 link-local neighbors, OSPFv3 router IDs",
+    "goal": "Advertise IPv6 loopbacks across area 0",
+    "fault_family": "No ipv6 unicast-routing; OSPFv3 interface disabled"
+  },
+  {
+    "chapter": 11,
+    "title": "BGP",
+    "part": "Routing",
+    "profile": "bgp",
+    "focus": "eBGP/iBGP sessions, network statements and next hop",
+    "goal": "Peer AS 65001 and AS 65002 and advertise loopbacks",
+    "fault_family": "Wrong remote-as; missing reachability to next hop"
+  },
+  {
+    "chapter": 12,
+    "title": "Advanced BGP",
+    "part": "Routing",
+    "profile": "bgp",
+    "focus": "Local preference, AS path, MED, route maps, policy",
+    "goal": "Prefer primary egress using local preference, filter undesired prefix",
+    "fault_family": "Wrong prefix-list sequence; route map direction error"
+  },
+  {
+    "chapter": 13,
+    "title": "Multicast",
+    "part": "Routing",
+    "profile": "routing",
+    "focus": "IGMP, PIM sparse mode, RPF and RP",
+    "goal": "Set PIM sparse-mode and verify group membership",
+    "fault_family": "RPF mismatch; missing PIM on transit"
+  },
+  {
+    "chapter": 14,
+    "title": "Quality of Service",
+    "part": "Services",
+    "profile": "routing",
+    "focus": "Classification, DSCP, shaping, policing and queuing",
+    "goal": "Apply class-map and policy-map to WAN egress",
+    "fault_family": "Policy on wrong interface or direction"
+  },
+  {
+    "chapter": 15,
+    "title": "IP Services",
+    "part": "Services",
+    "profile": "campus",
+    "focus": "HSRP, NTP, NAT and DHCP relay",
+    "goal": "Configure first-hop redundancy with verified failover",
+    "fault_family": "HSRP group mismatch; missing helper-address"
+  },
+  {
+    "chapter": 16,
+    "title": "Overlay Tunnels",
+    "part": "Overlay",
+    "profile": "vpn",
+    "focus": "GRE underlay and overlay, IPsec concepts",
+    "goal": "Establish GRE tunnel between edge routers and run route over tunnel",
+    "fault_family": "Tunnel destination recursion; tunnel source mismatch"
+  },
+  {
+    "chapter": 17,
+    "title": "Wireless Signals",
+    "part": "Wireless",
+    "profile": "wireless",
+    "focus": "SNR, RSSI, channel and RF survey",
+    "goal": "Build RF assessment and explain channel overlap using survey data",
+    "fault_family": "Interference and insufficient SNR"
+  },
+  {
+    "chapter": 18,
+    "title": "Wireless Infrastructure",
+    "part": "Wireless",
+    "profile": "wireless",
+    "focus": "WLC/AP architecture, CAPWAP and WLAN VLANs",
+    "goal": "Design controller and AP management connectivity",
+    "fault_family": "WLC discovery or trunk VLAN mapping mismatch"
+  },
+  {
+    "chapter": 19,
+    "title": "Wireless Roaming",
+    "part": "Wireless",
+    "profile": "wireless",
+    "focus": "Layer 2 and Layer 3 roaming fundamentals",
+    "goal": "Document roaming test and roaming-domain requirements",
+    "fault_family": "Mobility domain and client reauthentication issues"
+  },
+  {
+    "chapter": 20,
+    "title": "Wireless Authentication",
+    "part": "Wireless",
+    "profile": "wireless",
+    "focus": "802.1X/EAP, RADIUS, WPA2/WPA3 concepts",
+    "goal": "Validate a RADIUS policy with a test host",
+    "fault_family": "Shared secret mismatch; EAP identity issue"
+  },
+  {
+    "chapter": 21,
+    "title": "Wireless Troubleshooting",
+    "part": "Wireless",
+    "profile": "wireless",
+    "focus": "Structured WLAN verification and client path",
+    "goal": "Triage WLAN, DNS, DHCP and client association symptoms",
+    "fault_family": "Wrong dynamic interface VLAN; DHCP unreachable"
+  },
+  {
+    "chapter": 22,
+    "title": "Enterprise Network Architecture",
+    "part": "Architecture",
+    "profile": "campus",
+    "focus": "Two-tier and three-tier design; redundancy",
+    "goal": "Compare STP access with routed access design",
+    "fault_family": "Single points of failure; asymmetry after cutover"
+  },
+  {
+    "chapter": 23,
+    "title": "Fabric Technologies",
+    "part": "Architecture",
+    "profile": "fabric",
+    "focus": "SD-Access, SD-WAN roles, underlay and overlay concepts",
+    "goal": "Design fabric control/data plane in worksheet and verify underlay routing",
+    "fault_family": "Underlay route loss; fabric role mismatch (conceptual)"
+  },
+  {
+    "chapter": 24,
+    "title": "Network Assurance",
+    "part": "Architecture",
+    "profile": "routing",
+    "focus": "Syslog, SNMP, SPAN, Flexible NetFlow, IP SLA",
+    "goal": "Configure syslog and IP SLA probes, collect evidence",
+    "fault_family": "Wrong log host; unreachable collector; failed SLA"
+  },
+  {
+    "chapter": 25,
+    "title": "Secure Network Access Control",
+    "part": "Security",
+    "profile": "campus",
+    "focus": "AAA, 802.1X, MAB and RADIUS access policies",
+    "goal": "Build safe AAA login fallback and plan dot1x edge",
+    "fault_family": "RADIUS unreachable; incorrect fallback"
+  },
+  {
+    "chapter": 26,
+    "title": "Infrastructure Security",
+    "part": "Security",
+    "profile": "routing",
+    "focus": "ACL, CoPP, SSH hardening, zone based firewall",
+    "goal": "Deploy ACL and baseline hardening without lockout",
+    "fault_family": "ACL ordering; wrong zone-pair; unreachable SSH"
+  },
+  {
+    "chapter": 27,
+    "title": "Virtualization",
+    "part": "SDN",
+    "profile": "routing",
+    "focus": "VRF-lite and virtualized network functions",
+    "goal": "Create isolated VRFs and prove independent route tables",
+    "fault_family": "Incorrect VRF on interface; accidental overlap"
+  },
+  {
+    "chapter": 28,
+    "title": "Foundational Network Programmability Concepts",
+    "part": "SDN",
+    "profile": "automation",
+    "focus": "JSON, REST, NETCONF/RESTCONF and basic Python",
+    "goal": "Use local mock REST API to collect interface metadata",
+    "fault_family": "401 and malformed JSON; API request validation"
+  },
+  {
+    "chapter": 29,
+    "title": "Introduction to Automation Tools",
+    "part": "SDN",
+    "profile": "automation",
+    "focus": "EEM, Ansible and repeatable configuration",
+    "goal": "Run Ansible inventory tests or EEM event logic",
+    "fault_family": "Wrong inventory vars; invalid command sequence"
+  }
+]

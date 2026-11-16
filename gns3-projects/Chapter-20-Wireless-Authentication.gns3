@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 20 - Wireless Authentication",
+  "project_id": "c8e9384b-894c-5d45-a104-4ceb52abaec7",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

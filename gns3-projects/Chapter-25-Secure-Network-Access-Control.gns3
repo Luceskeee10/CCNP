@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 25 - Secure Network Access Control",
+  "project_id": "8e712fac-0dc7-5830-86d5-46f12dbdb532",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

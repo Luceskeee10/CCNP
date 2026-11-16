@@ -1,0 +1,14 @@
+---
+- name: Backup configs (requires ansible.netcommon and cisco.ios collections)
+  hosts: routers
+  gather_facts: false
+  tasks:
+    - name: Collect sanitized sample facts
+      cisco.ios.ios_command:
+        commands:
+          - show version
+          - show ip interface brief
+      register: results
+    - name: Show result
+      ansible.builtin.debug:
+        var: results.stdout_lines

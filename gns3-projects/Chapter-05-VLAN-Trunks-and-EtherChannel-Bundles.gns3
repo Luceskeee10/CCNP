@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 05 - VLAN Trunks and EtherChannel Bundles",
+  "project_id": "0dcfbb4d-b494-556b-8509-14d9795081e1",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "chapter": 29,
+  "name": "Introduction to Automation Tools",
+  "profile": "automation",
+  "nodes": [
+    {
+      "name": "R1",
+      "role": "router",
+      "x": -220,
+      "y": 0,
+      "required_ports": 2
+    },
+    {
+      "name": "R2",
+      "role": "router",
+      "x": 200,
+      "y": 0,
+      "required_ports": 1
+    },
+    {
+      "name": "PC1",
+      "role": "pc",
+      "x": -220,
+      "y": 240,
+      "required_ports": 1
+    }
+  ],
+  "links": [
+    {
+      "a": "R1",
+      "b": "R2",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "R1:port0 <-> R2:port0"
+    },
+    {
+      "a": "R1",
+      "b": "PC1",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R1:port1 <-> PC1:port0"
+    }
+  ],
+  "description": "Run Ansible inventory tests or EEM event logic"
+}

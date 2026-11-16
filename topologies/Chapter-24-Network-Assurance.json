@@ -1,0 +1,101 @@
+{
+  "chapter": 24,
+  "name": "Network Assurance",
+  "profile": "routing",
+  "nodes": [
+    {
+      "name": "R1",
+      "role": "router",
+      "x": -450,
+      "y": 0,
+      "required_ports": 3
+    },
+    {
+      "name": "R2",
+      "role": "router",
+      "x": -150,
+      "y": -150,
+      "required_ports": 3
+    },
+    {
+      "name": "R3",
+      "role": "router",
+      "x": 180,
+      "y": -150,
+      "required_ports": 2
+    },
+    {
+      "name": "R4",
+      "role": "router",
+      "x": -150,
+      "y": 180,
+      "required_ports": 3
+    },
+    {
+      "name": "R5",
+      "role": "router",
+      "x": 180,
+      "y": 180,
+      "required_ports": 2
+    },
+    {
+      "name": "PC1",
+      "role": "pc",
+      "x": -620,
+      "y": 180,
+      "required_ports": 1
+    }
+  ],
+  "links": [
+    {
+      "a": "R1",
+      "b": "R2",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "R1:port0 <-> R2:port0"
+    },
+    {
+      "a": "R1",
+      "b": "R4",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R1:port1 <-> R4:port0"
+    },
+    {
+      "a": "R2",
+      "b": "R3",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R2:port1 <-> R3:port0"
+    },
+    {
+      "a": "R2",
+      "b": "R4",
+      "port_a": 2,
+      "port_b": 1,
+      "link_label": "R2:port2 <-> R4:port1"
+    },
+    {
+      "a": "R3",
+      "b": "R5",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R3:port1 <-> R5:port0"
+    },
+    {
+      "a": "R4",
+      "b": "R5",
+      "port_a": 2,
+      "port_b": 1,
+      "link_label": "R4:port2 <-> R5:port1"
+    },
+    {
+      "a": "PC1",
+      "b": "R1",
+      "port_a": 0,
+      "port_b": 2,
+      "link_label": "PC1:port0 <-> R1:port2"
+    }
+  ],
+  "description": "Configure syslog and IP SLA probes, collect evidence"
+}

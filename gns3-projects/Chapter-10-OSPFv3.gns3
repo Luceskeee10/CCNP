@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 10 - OSPFv3",
+  "project_id": "c346b812-f49a-5d1d-b88d-efcbed6ad2e6",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

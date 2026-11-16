@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 03 - Advanced STP Tuning",
+  "project_id": "827c0fa0-24cf-5637-a478-6a675764fee5",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

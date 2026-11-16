@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 17 - Wireless Signals",
+  "project_id": "089d0673-6052-5e72-95e2-21cfbf92a584",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

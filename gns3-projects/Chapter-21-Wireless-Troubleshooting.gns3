@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 21 - Wireless Troubleshooting",
+  "project_id": "a5753b15-fda6-5a89-9e51-8bf143dc0984",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

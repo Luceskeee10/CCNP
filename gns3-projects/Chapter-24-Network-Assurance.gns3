@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 24 - Network Assurance",
+  "project_id": "d5fbd69c-0c82-5c67-aa90-9d69c8489915",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

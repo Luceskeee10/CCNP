@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 06 - IP Routing Essentials",
+  "project_id": "5266561e-5c4c-523f-b868-ee0c51fdaab8",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

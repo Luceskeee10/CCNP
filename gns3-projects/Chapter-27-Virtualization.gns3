@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 27 - Virtualization",
+  "project_id": "d4269206-2c5f-5771-89b4-edaacf6ce403",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

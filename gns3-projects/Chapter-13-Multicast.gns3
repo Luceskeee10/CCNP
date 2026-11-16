@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 13 - Multicast",
+  "project_id": "a102840a-e413-5d58-9a25-a30863be775e",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

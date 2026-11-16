@@ -1,0 +1,80 @@
+{
+  "chapter": 12,
+  "name": "Advanced BGP",
+  "profile": "bgp",
+  "nodes": [
+    {
+      "name": "R1",
+      "role": "router",
+      "x": -430,
+      "y": -100,
+      "required_ports": 1
+    },
+    {
+      "name": "R2",
+      "role": "router",
+      "x": -130,
+      "y": -100,
+      "required_ports": 3
+    },
+    {
+      "name": "R3",
+      "role": "router",
+      "x": 180,
+      "y": -100,
+      "required_ports": 2
+    },
+    {
+      "name": "R4",
+      "role": "router",
+      "x": -130,
+      "y": 180,
+      "required_ports": 2
+    },
+    {
+      "name": "R5",
+      "role": "router",
+      "x": 180,
+      "y": 180,
+      "required_ports": 2
+    }
+  ],
+  "links": [
+    {
+      "a": "R1",
+      "b": "R2",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "R1:port0 <-> R2:port0"
+    },
+    {
+      "a": "R2",
+      "b": "R3",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R2:port1 <-> R3:port0"
+    },
+    {
+      "a": "R2",
+      "b": "R4",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "R2:port2 <-> R4:port0"
+    },
+    {
+      "a": "R3",
+      "b": "R5",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "R3:port1 <-> R5:port0"
+    },
+    {
+      "a": "R4",
+      "b": "R5",
+      "port_a": 1,
+      "port_b": 1,
+      "link_label": "R4:port1 <-> R5:port1"
+    }
+  ],
+  "description": "Prefer primary egress using local preference, filter undesired prefix"
+}

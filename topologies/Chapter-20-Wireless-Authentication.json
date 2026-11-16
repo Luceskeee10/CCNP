@@ -1,0 +1,59 @@
+{
+  "chapter": 20,
+  "name": "Wireless Authentication",
+  "profile": "wireless",
+  "nodes": [
+    {
+      "name": "R1",
+      "role": "router",
+      "x": -300,
+      "y": -130,
+      "required_ports": 1
+    },
+    {
+      "name": "SW1",
+      "role": "switch",
+      "x": 0,
+      "y": 0,
+      "required_ports": 3
+    },
+    {
+      "name": "PC1",
+      "role": "pc",
+      "x": -300,
+      "y": 240,
+      "required_ports": 1
+    },
+    {
+      "name": "PC2",
+      "role": "pc",
+      "x": 280,
+      "y": 240,
+      "required_ports": 1
+    }
+  ],
+  "links": [
+    {
+      "a": "R1",
+      "b": "SW1",
+      "port_a": 0,
+      "port_b": 0,
+      "link_label": "R1:port0 <-> SW1:port0"
+    },
+    {
+      "a": "SW1",
+      "b": "PC1",
+      "port_a": 1,
+      "port_b": 0,
+      "link_label": "SW1:port1 <-> PC1:port0"
+    },
+    {
+      "a": "SW1",
+      "b": "PC2",
+      "port_a": 2,
+      "port_b": 0,
+      "link_label": "SW1:port2 <-> PC2:port0"
+    }
+  ],
+  "description": "Validate a RADIUS policy with a test host"
+}

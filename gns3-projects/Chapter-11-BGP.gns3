@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 11 - BGP",
+  "project_id": "c9d6a39d-6360-57ad-9206-189fb56fbd29",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

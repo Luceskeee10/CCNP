@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 28 - Foundational Network Programmability Concepts",
+  "project_id": "b35e6d38-cb60-5885-a4a0-e170f1160472",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

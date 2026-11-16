@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 04 - Multiple Spanning Tree Protocol",
+  "project_id": "0ab91a95-765d-5041-9bd3-77d3b82c600e",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ENCOR 18 - Wireless Infrastructure",
+  "project_id": "b056ee44-b3f3-53dd-8fab-432883862858",
+  "revision": 9,
+  "type": "topology",
+  "version": "2.2.52",
+  "topology": {
+    "nodes": [],
+    "links": [],
+    "drawings": [],
+    "computes": []
+  }
+}
